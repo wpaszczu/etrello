@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p class="white">
+  <strong>Content:</strong>
+  <%= @task.content %>
+</p>
+
+<p class="white">
+  <strong>State:</strong>
+  <%= @task.state %>
+</p>
+
+<%= link_to 'edytuj', edit_task_path(@task) %> |
+<%= link_to 'nazad', tasks_path %>

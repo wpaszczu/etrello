@@ -1,0 +1,14 @@
+<div class="row">
+<div class="col-md-4"><h1 class="text-center white">do_zrobienia</h1>
+<%= render @to_do %>
+<%= link_to 'nowe_zadanie', new_task_path, class: 'btn btn-xs btn-primary btn-block' %>
+</div>
+<div class="col-md-4"><h1 class="text-center white">robione</h1>
+<%= render @doing %>
+</div>
+<div class="col-md-4"><h1 class="text-center white">po_sprawie</h1>
+<%= render @done %>
+</div>
+</div>
+
+<br>
